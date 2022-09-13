@@ -12,9 +12,8 @@ public class ArrayListDemo {
 		list.add("Seeta");
 		list.add("Geeta");
 		
-		Iterator<String> itr = list.iterator();
-		while(itr.hasNext()) {
-			System.out.println(itr.next());
+		for(String str : list) {
+			System.out.println(str);
 		}
 
 	}
